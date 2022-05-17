@@ -1,5 +1,4 @@
 # MLB_CSNE_13_15
-# OOC-Project-IT1050
 OOC-Project-IT1050 created by GitHub Classroom\
 \
 Members and Tasks: \
