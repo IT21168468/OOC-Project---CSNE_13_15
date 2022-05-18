@@ -7,10 +7,10 @@ IT21168468 - R.K.N. Dhananjana \
 *Person, *Owner, *Doctor, *Staff\
 \
 IT21212390 - C.P.K. Janson \
-*Payment, *Order, *Item \
+*Appointment, *DayCare, *Pet \
 \
 IT21254048 - Amarasinghe A.G.C.J. \
-*Appointment, *DayCare, *Pet \
+*Payment, *Order, *Item \
 --------------------------------------------- \
 \
 Thank you...! \
