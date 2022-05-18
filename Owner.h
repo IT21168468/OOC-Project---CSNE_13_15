@@ -20,7 +20,7 @@ class Owner : public Person {
     DayCare *dcr[size];
   public:
   	Owner();
-  	Owner(int pet1, int pay1, int itm1, string ownerid, string name, string email, string contactno);
+  	Owner(int pet1, int pay1, string ownerid, string name, string email, string contactno);
 	void Display();
 	void DisplayPet();
 	void DisplayPayment();
