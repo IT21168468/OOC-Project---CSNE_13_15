@@ -5,6 +5,7 @@
 #include "Doctor.h"
 #include "Appointment.h"
 #include <cstring>
+#define SIZE 1
 
 using namespace std;
 
