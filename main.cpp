@@ -12,6 +12,7 @@
 #include "Item.h"
 #include "DayCare.h"
 #include "Order.h"
+#define SIZE 1
 
 using namespace std;
 
