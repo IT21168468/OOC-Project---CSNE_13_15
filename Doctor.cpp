@@ -9,22 +9,29 @@
 using namespace std;
 
 Doctor :: Doctor() {
-  DoctorId = "";
-  Name = "";
-  Email = "";
-  ContactNo = "";
+	DoctorId = "";
+	Name = "";
+	Email = "";
+	ContactNo = "";
+	app[1] = new Appointment(101);
 }
 
 Doctor :: Doctor(string doctorid, string name, string email, string contactno, int app1) {
-  
+	DoctorId = doctorid;
+	Name = name;
+	Email = email;
+	ContactNo = contactno;
+	app[1] = new Appointment(app1);
 }
 
 void Doctor :: Display() {
-  cout << "This is Doctor Class >> Derived from Person\n\n";
+	cout << "This is Doctor Class >> Derived from Person\n\n";
 }
 
 void Doctor :: DisplayAppointment() {
-	
+	for(int i = 0; i < SIZE; i++){
+		app[i]->Display();
+	}
 }
 
 void Doctor :: DisplayDoctorData() {
