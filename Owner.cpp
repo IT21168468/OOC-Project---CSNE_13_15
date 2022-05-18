@@ -53,11 +53,11 @@ void Owner :: DisplayPayment() {
 	}
 }
 
-void Owner :: AddItem() {
+void Owner :: AddItem(Item *I) {
 	itm[0] = itm1;
 }
 
-void Owner :: AddAppointment() {
+void Owner :: AddAppointment(Appointment *A) {
 	app[0] = app1;
 }
 
