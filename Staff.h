@@ -17,12 +17,12 @@ class Staff : public Person {
     Doctor *doc[size];
   public:
     Staff();
-    Staff(string staffid, string name, string email, string contactno, Item *pitm, DayCare *pdcr, Doctor *pdoc, Appointment *paap);
+    Staff(string staffid, string name, string email, string contactno);
     void Display();
-    void DisplayItem();
-    void DisplayDayCare();
-    void DisplayAppointment();
-    void DisplayDoctor();
+    void AddItem();
+    void AddDayCare();
+    void AddAppointment();
+    void AddDoctor();
     void DisplayStaff();
     ~Staff();
 };
