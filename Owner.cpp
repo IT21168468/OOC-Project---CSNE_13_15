@@ -9,6 +9,7 @@
 #include "DayCare.h"
 #include "Appointment.h"
 #include <cstring>
+#define SIZE 1
 
 using namespace std;
 
@@ -61,7 +62,7 @@ void Owner :: AddAppointment() {
 }
 
 Owner :: ~Owner() {
-	for(int i = 0; i < size; i++){
+	for(int i = 0; i < SIZE; i++){
 		delete pet[i];
 		delete pay[i];
 	}
