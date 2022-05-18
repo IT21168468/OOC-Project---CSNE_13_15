@@ -8,6 +8,7 @@
 #include "DayCare.h"
 #include "Item.h"
 #include <cstring>
+#define SIZE 1
 
 using namespace std;
 
