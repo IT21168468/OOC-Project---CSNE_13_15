@@ -26,7 +26,7 @@ class Owner : public Person {
 	void DisplayPet();
 	void DisplayPayment();
 	void DisplayOwner();
-	void AddItem();
-	void AddAppointment();
+	void AddItem(Item *I);
+	void AddAppointment(Appointment *A);
     ~Owner();
 };
