@@ -16,10 +16,17 @@ Owner :: Owner(){
 	Name = "";
 	Email = "";
 	ContactNo = "";
+	pet[0] = new Pet(201);
+	pay[0] = new Payment(301);
 }
 
-Owner :: Owner(int pet1, int pay1, int itm1, string ownerid, string name, string email, string contactno) {
-	
+Owner :: Owner(int pet1, int pay1, string ownerid, string name, string email, string contactno) {
+	pet[0] = new Pet(pet1);
+	pey[0] = new Peyment(pay1);
+	OwnerId = ownerid;
+	Name = name;
+	Email = email;
+	ContactNo = contactno;
 }
 
 void Owner :: Display() {
@@ -27,25 +34,30 @@ void Owner :: Display() {
 }
 
 void Owner :: DisplayOwner() {
+	cout << "Owner Id	: " << OwnerId << "\n";
 	cout << "Name		: " << Name  << "\n";
 	cout << "Email		: " << Email << "\n";
 	cout << "Cotact Number	: " << ContactNo << "\n\n";
 }
 
 void Owner :: DisplayPet() {
-	
+	for(int i = 0; i < SIZE; i++){
+		pet[i]->Display();
+	}
 }
 
 void Owner :: DisplayPayment() {
-	
+	for(int i = 0; i < SIZE; i++){
+		pay[i]->Display();
+	}
 }
 
 void Owner :: AddItem() {
-	
+	itm[0] = itm1;
 }
 
 void Owner :: AddAppointment() {
-	
+	app[0] = app1;
 }
 
 Owner :: ~Owner() {
