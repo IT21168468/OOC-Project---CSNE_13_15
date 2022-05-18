@@ -18,28 +18,31 @@ Staff :: Staff() {
   ContactNo = "";
 }
 
-Staff :: Staff(string staffid, string name, string email, string contactno, Item *pitm, DayCare *pdcr, Doctor *pdoc, Appointment *paap) {
-  	
+Staff :: Staff(string staffid, string name, string email, string contactno) {
+   	StaffId = staffid;
+  	Name = name;
+  	Email = email;
+  	ContactNo = contactno; 		
 }
 
 void Staff :: Display() {
   cout << "This is Staff Class >> Derived from Person\n\n";
 }
 
-void Staff :: DisplayItem() {
-	
+void Staff :: AddItem(Item *itm1) {
+	itm[0] = itm1;
 }
 
-void Staff :: DisplayDayCare(){
-	
+void Staff :: AddDayCare(DayCare *dcr1) {
+	dcr[0] = dcr1;
 }
 
-void Staff :: DisplayAppointment() {
-	
+void Staff :: AddAppointment(Appointment *app1) {
+	app[0] = app1;
 }
 
-void Staff :: DisplayDoctor() {
-	
+void Staff :: AddDoctor(Doctor *doc1) {
+	doc[0] = doc1;
 }
 
 void Staff :: DisplayStaff() {
