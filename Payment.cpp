@@ -10,18 +10,18 @@
 using namespace std;
 
 Payment :: Payment() {
-	      PaymentNo = "";
-	      PaymentMethod = "";
+	PaymentNo = "";
+	PaymentMethod = "";
         odr[1] = new Order(51);
 }
 Payment :: Payment(int paymentno, char paymentmethod, int odr1) {
-	      PaymentNo = paymentno;
-	      PaymentMethod = paymentmethod;
+	PaymentNo = paymentno;
+	PaymentMethod = paymentmethod;
         odr1 = new Order(odr1);
 }
 
 void Payment :: Display() {
-  cout << "This is Payment Class >> Derived from Person\n\n";
+	cout << "This is Payment Class >> Derived from Person\n\n";
 }
 
 void Payment :: DisplayPayment() {
