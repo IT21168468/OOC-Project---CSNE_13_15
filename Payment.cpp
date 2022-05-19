@@ -21,7 +21,7 @@ Payment :: Payment(int paymentno, char paymentmethod, int odr1) {
 }
 
 void Payment :: Display() {
-	cout << "This is Payment Class >> Derived from Person\n\n";
+	cout << "This is Payment Class\n\n";
 }
 
 void Payment :: DisplayPayment() {
