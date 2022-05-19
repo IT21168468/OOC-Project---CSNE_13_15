@@ -10,8 +10,8 @@
 using namespace std;
 
 Item :: Item() {
-	      ItemNo = "";
-	      Category = "";
+	ItemNo = "";
+	Category = "";
         Quantity = "";
         Price = "";
         own[1] = new Owner(101)
@@ -19,16 +19,16 @@ Item :: Item() {
 }
 
 Item :: Item(int itemno, char ItemCategory, int ItemQuantity, double ItemPrice, Owner *pown, int itm1) {
-	     ItemNo = itemno;
-       Category = ItemCategory;
-       Quantity = ItemQuantity;
-       Price = ItemPrice;
-       own[1] = new Owner(own1)
-       itm[1] = new Item(itm1);   
+	ItemNo = itemno;
+	Category = ItemCategory;
+	Quantity = ItemQuantity;
+	Price = ItemPrice;
+	own[1] = new Owner(own1)
+	itm[1] = new Item(itm1);   
 }
 
  void Item :: Display() {
-      cout << "This is Item Class >> Derived from Person\n\n";
+ 	cout << "This is Item Class >> Derived from Person\n\n";
                                      
 }
 
