@@ -28,7 +28,7 @@ Item :: Item(int itemno, char ItemCategory, int ItemQuantity, double ItemPrice, 
 }
 
  void Item :: Display() {
- 	cout << "This is Item Class >> Derived from Person\n\n";
+ 	cout << "This is Item Class\n\n";
                                      
 }
 
