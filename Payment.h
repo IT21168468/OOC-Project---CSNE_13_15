@@ -7,7 +7,7 @@
 
 using namespace std;
 
-class Payment : public Person {
+class Payment {
     protected:
   int PaymentNo;
   char PaymentMethod;
