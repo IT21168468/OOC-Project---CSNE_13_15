@@ -7,7 +7,7 @@
 
 using namespace std;
 
-class Order : public Person {
+class Order {
    protected:
       int OrderID;
       char ShippingMethod;
