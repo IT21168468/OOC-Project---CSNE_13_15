@@ -7,7 +7,7 @@
 
 using namespace std;
 
-class Item : public Person{
+class Item {
   protected:
    int ItemNo;
    char Category;
