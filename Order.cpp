@@ -22,7 +22,7 @@ Order :: Order(int orderno, char shippingmethod, int itm1) {
 }
 
 void Order :: Display() {
-	cout << "This is Order Class >> Derived from Person\n\n";
+	cout << "This is Order Class\n\n";
 }
 
 void Order :: DisplayOrder() {
